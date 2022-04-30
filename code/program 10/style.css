@@ -1,0 +1,42 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    width: 26%;
+    border-radius: 5px;
+    margin-top: 24px;
+    margin-left: 20rem;
+}
+
+.main_content {
+    margin: 10px;
+    margin-left: 20rem;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 55rem;
+}
+
+.main_content h1 {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.main_content table {
+    width: 100%;
+    padding: 25px;
+}
+
+.main_content table tr {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.main {
+    border: 2px solid #2c2835;
+    height: fit-content;
+    height: 100rem;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.logo {
+    margin-top: 5px;
+    float: left;
+    margin-left: 10px;
+}
+
+.heading {
+    float: left;
+    margin-top: 5px;
+    margin-left: 16px;
+    width: 85%;
+}
+
+.heading h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.heading p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -40px;
+}
+
+.heading h1 span {
+    color: blue;
+    font-weight: bold;
+}
+
+.main_content {
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.main_content h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.main_content p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+
+.footer {
+    float: left;
+    margin-top: 55%;
+    width: 100%;
+    margin-left: 50px;
+}

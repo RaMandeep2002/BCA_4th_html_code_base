@@ -1,0 +1,35 @@
+body {
+    background-color: #f5e3ed;
+}
+
+.main_content {
+    margin: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.right_pane {
+    width: 48%;
+    float: left;
+    height: 50rem;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+.left_pane {
+    width: 48%;
+    float: right;
+    height: 50rem;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+.right_pane img {
+    margin-top: 10rem;
+    width: 35rem;
+}
+
+.left_pane img {
+    margin-top: 8rem;
+}

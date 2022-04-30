@@ -1,0 +1,39 @@
+body {
+    background-color: #f5e3ed;
+}
+
+.main_Content {
+    background-color: #f5e3ed;
+    border: 1px solid #302c2e;
+    border-radius: 30px;
+    margin: 80px;
+    filter: drop-shadow(-10px -10px 20px #4c4c55) drop-shadow(10px 10px 20px #4c4c55);
+}
+
+.main_Content:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255);
+}
+
+h1 {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.heading p {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 30pxs;
+    color: black;
+}
+
+.heading {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 50px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="stylesheet">
+    <script type="text/javascript" src="index.js"></script>
+    <title>On click Button</title>
+</head>
+
+<body>
+    <div class="formarea">
+        <form name="subform" method="POST">
+            <label>Username:</label><br>
+            <input type="text" id="Uname" name="uname" placeholder="username" required><br>
+            <label>Password:</label><br>
+            <input type="password" id="pasw" name="pasw" placeholder="password" minlength="8" required><br><br>
+            <input type="button" value="Submit" id="logbutton" name="log" onclick=" myFunction()">
+        </form>
+    </div>
+</body>
+
+</html> "username": "admin1", "password": "b123" }, { "username": "admin2", "password": "b123" }, { "username": "admin3", "password": "b123" }], "ID": 2 }, "Supplier": { "supplierlist": [{ "username": "sup1", "password": "c123" }, { "username": "sup2", "password":
+"c123" }, { "username": "sup3", "password": "c123" }], "ID": 1 } }; var logged = false; if (loginlist[0].User.ID === 1) { for (var i = 0; i
+< loginlist[0].User.userlist.length; i++) { if (username==l oginlist[0].User.userlist[i].username && password==l
+    oginlist[0].User.userlist[i].password) { logged=t rue; } } if (logged) alert( "User login"); else alert( "User login fail"); } else if (loginlist[0].Admin.ID===2 ) { for (var j=0 ; j < loginlist[0].Admin.adminlist.length; j++) { if (username==l oginlist[0].Admin.adminlist[j].username
+    && password==l oginlist[0].Admin.adminlist[j].password) { logged=t rue; } } if (logged) alert( "Admin login"); else alert( "admin login fail"); } else { for (var k=0 ; k < loginlist[0].Supplier.supplierlist.length; k++) { if (username==l oginlist[0].Supplier.supplierlist[k].username
+    && password==l oginlist[0].Supplier.supplierlist[k].password) { logged=t rue; } } if (logged) alert( "Supplier login"); else alert( "supplier login fail"); } } </script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="main">
+                <h2>Login Form</h2>
+                <form id="form_id" method="post" name="myform">
+                    <label>User Name :</label>
+                    <input type="text" placeholder="Enter username" name="username" id="username" />
+                    <label>Password :</label>
+                    <input type="password" placeholder="Enter Password" name="password" id="password" />
+                    <input type="button" value="Login" id="submit" onclick="validate()" />
+                </form>
+    </body>
+
+    </html>

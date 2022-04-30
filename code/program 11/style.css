@@ -1,0 +1,124 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(43, 40, 40);
+    height: 85px;
+    width: 100%;
+    top: 0;
+    /* display: block; */
+    position: fixed;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navbar .logo {
+    float: left;
+    font-size: 22px;
+}
+
+.navbar .logo img {
+    height: 50px;
+    float: left;
+    width: 50px;
+    margin-left: 4rem;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.navbar .logo h1 {
+    font-size: 25px;
+    color: #f2f2f2;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 8rem;
+    padding-top: 10px;
+    width: 15rem;
+}
+
+.navbar .menubar {
+    float: right;
+    margin-right: 2rem;
+    /* margin-top: 17px; */
+}
+
+.navbar .menubar .btn {
+    background-color: aqua;
+    border-radius: 30px;
+    filter: drop-shadow(-7px -4px 4px rgb(0, 0, 0)) drop-shadow(8px 3px 5px rgb(122, 122, 122));
+}
+
+.navbar .menubar .btn:hover {
+    background-color: rgb(43, 40, 40);
+    transition: 0.5s;
+}
+
+.navbar .menubar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 22px;
+    border-radius: 30px;
+}
+
+.navbar .menubar a:hover {
+    background-color: rgb(189, 189, 189);
+    transition: 0.5s;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.main_content {
+    margin-top: 80px;
+    background-color: aqua;
+    height: 48vw;
+}
+
+.main_content h1 {
+    margin-left: 8rem;
+    word-spacing: 2px;
+    padding-top: 10rem;
+    font-size: 50px;
+    color: rgb(53, 53, 53);
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.main_content p {
+    margin-left: 8rem;
+    word-spacing: 2px;
+    padding-top: 0rem;
+    font-size: 25px;
+    float: left;
+    color: rgb(53, 53, 53);
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.main_content .main_text {
+    display: inline-block;
+    width: 50rem;
+    height: 45rem;
+}
+
+.main_content .main_image {
+    display: inline-block;
+    width: 40rem;
+    vertical-align: middle;
+}
+
+.main_content .main_image img {
+    width: 25rem;
+    height: 16rem;
+    border-radius: 18px;
+    margin-left: 8rem;
+    /* filter: drop-shadow(-10px -10px 20px rgb(0, 0, 0)) drop-shadow(10px 10px 20px rgb(122, 122, 122)); */
+}
+
+.main_content .main_image img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

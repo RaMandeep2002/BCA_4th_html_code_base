@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: aquamarine;
+}
+
+h1 {
+    color: rgb(49, 45, 45);
+    text-align: center;
+    font-size: 60px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 55%;
+    font-size: 30px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+th {
+    background-color: rgb(49, 45, 45);
+    color: white;
+    border: 1px solid black;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+ol {
+    font-size: 25px;
+    list-style: outside;
+    text-align: left;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}

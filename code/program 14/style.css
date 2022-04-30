@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("1282794.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.formarea {
+    width: 35%;
+    height: auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    margin-left: 32rem;
+    transform: perspective(1500px) rotateY(15deg);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: transform 1s ease 0s;
+}
+
+.formarea:hover {
+    transform: perspective(3000px) rotateY(5deg);
+    filter: drop-shadow(-10px -10px 5px #ffffff) drop-shadow(10px 10px 5px #4c4c55);
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input [type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 55px;
+    margin: 0px 0;
+    border: solid rgb(126, 126, 126);
+    border-radius: 15px;
+    cursor: pointer;
+    width: 45%;
+}

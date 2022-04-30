@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.formarea {
+    width: 25%;
+    height: 15rem;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    /* text-align: center; */
+    margin-top: 8rem;
+    margin-left: 35rem;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 55px;
+    margin: 0px 0;
+    border: solid rgb(126, 126, 126);
+    border-radius: 15px;
+    cursor: pointer;
+    width: 45%;
+}

@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2c2835;
+    overflow-y: scroll;
+}
+
+.header h1 {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.header p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.heading {
+    border: #fff solid 4px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: white;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#heading-box {
+    margin-left: 15px;
+    float: left;
+    width: 30.50%;
+}
+
+#paragraph-box {
+    margin-left: 25px;
+    float: left;
+    width: 30.50%;
+}
+
+#text-format-box {
+    margin-left: 25px;
+    float: left;
+    width: 30.50%;
+}

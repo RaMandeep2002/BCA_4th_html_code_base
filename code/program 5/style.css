@@ -7,7 +7,6 @@ body {
     border: 1px solid #302c2e;
     border-radius: 30px;
     margin: 80px;
-    filter: drop-shadow(-10px -10px 20px #4c4c55) drop-shadow(10px 10px 20px #4c4c55);
 }
 
 .main_Content:hover {

@@ -9,10 +9,6 @@ body {
     margin: 80px;
 }
 
-.main_Content:hover {
-    box-shadow: 0 8px 16px 0 rgba(255, 255, 255);
-}
-
 h1 {
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 50px;

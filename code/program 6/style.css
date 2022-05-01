@@ -20,7 +20,7 @@ table {
     margin-bottom: 20px;
     border: 1px solid black;
     border-collapse: collapse;
-    width: 95%;
+    width: 100%;
     font-size: 30px;
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     filter: drop-shadow(-10px -10px 20px #4c4c55) drop-shadow(10px 10px 20px #4c4c55);

@@ -1,0 +1,74 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(43, 40, 40);
+    height: 85px;
+    width: 100%;
+    top: 0;
+    /* display: block; */
+    position: fixed;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navbar .logo {
+    float: left;
+    font-size: 22px;
+}
+
+.navbar .logo img {
+    height: 65px;
+    float: left;
+    width: 48px;
+    margin-left: 4rem;
+    margin-top: 10px;
+}
+
+.navbar .logo h1 {
+    font-size: 25px;
+    color: #f2f2f2;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 8rem;
+    padding-top: 10px;
+    width: 15rem;
+}
+
+.navbar .menubar {
+    float: right;
+    margin-right: 2rem;
+    /* margin-top: 17px; */
+}
+
+.navbar .menubar .btn {
+    background-color: aqua;
+    border-radius: 30px;
+    filter: drop-shadow(-7px -4px 4px rgb(0, 0, 0)) drop-shadow(8px 3px 5px rgb(122, 122, 122));
+}
+
+.navbar .menubar .btn:hover {
+    background-color: rgb(43, 40, 40);
+    transition: 2.5s;
+}
+
+.navbar .menubar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 22px;
+    border-radius: 30px;
+}
+
+.navbar .menubar a:hover {
+    background-color: rgb(189, 189, 189);
+    transition: 0.5s;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 15px;
+}

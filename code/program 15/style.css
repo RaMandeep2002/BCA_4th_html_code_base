@@ -29,9 +29,8 @@ body {
 .navbar .logo h1 {
     font-size: 25px;
     color: #f2f2f2;
-    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 8rem;
-    padding-top: 10px;
     width: 15rem;
 }
 
@@ -43,28 +42,30 @@ body {
 
 .navbar .menubar .btn {
     background-color: aqua;
+    color: black;
     border-radius: 30px;
     filter: drop-shadow(-7px -4px 4px rgb(0, 0, 0)) drop-shadow(8px 3px 5px rgb(122, 122, 122));
 }
 
 .navbar .menubar .btn:hover {
     background-color: rgb(43, 40, 40);
+    color: whitesmoke;
     transition: 1.5s;
 }
 
 .navbar .menubar a {
     color: #f2f2f2;
     text-align: center;
-    padding: 12px 30px;
+    padding: 12px 15px;
     text-decoration: none;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    font-size: 22px;
+    margin-right: 10px;
+    font-size: 15px;
     border-radius: 30px;
 }
 
 .navbar .menubar a:hover {
     background-color: rgb(189, 189, 189);
+    color: black;
     transition: 0.5s;
 }
 
@@ -73,19 +74,68 @@ ul li {
     margin-top: 15px;
 }
 
-.main_content .main_text {
-    margin-top: 5rem;
+.section {
+    background-color: rgba(179, 102, 102, 0.753);
     height: 40rem;
-    background-image: url(cgc_main.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: block;
+    padding: 37px;
+    text-align: center;
 }
 
-.main_text h1,
-p {
+.section p {
+    font-size: 50px;
     color: #f2f2f2;
-    margin-left: 70px;
-    margin-right: 70px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 4em;
+    background-color: cadetblue;
+    width: 78rem;
+    height: 18rem;
+    margin-left: 2rem;
+    border: 1px solid rgb(61, 61, 61);
+    transition: 0.5s;
+    box-shadow: 1px 0px 17px 8px rgb(0 0 0 / 49%);
+}
+
+.one {
+    background-image: url("cgc_main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.three {
+    background-color: rgba(45, 145, 232, 0.722);
+    top: 0;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* If you want dots under the hoverable text */
+}
+
+
+/* Tooltip text */
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }

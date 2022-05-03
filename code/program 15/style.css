@@ -6,10 +6,14 @@ body {
 .navbar {
     background-color: rgb(43, 40, 40);
     height: 85px;
-    width: 100%;
+    width: 95%;
+    position: absolute;
+    transition: top 0.3s;
     top: 0;
-    /* display: block; */
-    position: fixed;
+    margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 30px;
+    filter: drop-shadow(-7px -4px 4px rgb(93, 93, 93)) drop-shadow(8px 3px 5px rgb(121, 122, 122));
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -67,9 +71,12 @@ body {
     text-align: center;
     padding: 12px 15px;
     text-decoration: none;
+    position: relative;
+    margin-top: 15px;
     margin-right: 10px;
     font-size: 15px;
     border-radius: 30px;
+    filter: drop-shadow(-7px -4px 4px rgb(0, 0, 0)) drop-shadow(8px 3px 5px rgb(122, 122, 122));
 }
 
 .navbar .menubar a:hover {

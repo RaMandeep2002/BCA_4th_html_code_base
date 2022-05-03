@@ -13,6 +13,15 @@ body {
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #fff url('CGC.jpg') no-repeat center center;
+}
+
 .navbar .logo {
     float: left;
     font-size: 22px;
@@ -75,27 +84,17 @@ ul li {
 }
 
 .section {
-    background-color: rgba(179, 102, 102, 0.753);
-    height: 40rem;
+    background-color: rgba(255, 246, 246, 0.753);
+    height: 45rem;
     display: block;
-    padding: 37px;
-    text-align: center;
+    padding: 35px;
+    padding-top: 5rem;
 }
 
 .section p {
-    font-size: 50px;
-    color: #f2f2f2;
+    font-size: 20px;
+    color: white;
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
-    text-align: center;
-    vertical-align: middle;
-    margin-top: 4em;
-    background-color: cadetblue;
-    width: 78rem;
-    height: 18rem;
-    margin-left: 2rem;
-    border: 1px solid rgb(61, 61, 61);
-    transition: 0.5s;
-    box-shadow: 1px 0px 17px 8px rgb(0 0 0 / 49%);
 }
 
 .one {
@@ -105,37 +104,15 @@ ul li {
     background-position: center;
 }
 
+.one p {
+    font-size: 50px;
+    margin-top: 15rem;
+    color: white;
+    margin-left: 15px;
+    width: auto;
+}
+
 .three {
-    background-color: rgba(45, 145, 232, 0.722);
+    background-color: rgba(242, 247, 252, 0.722);
     top: 0;
-}
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-    /* If you want dots under the hoverable text */
-}
-
-
-/* Tooltip text */
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    /* Position the tooltip text - see examples below! */
-    position: absolute;
-    z-index: 1;
-}
-
-
-/* Show the tooltip text when you mouse over the tooltip container */
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
 }

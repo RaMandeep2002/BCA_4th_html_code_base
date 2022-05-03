@@ -49,7 +49,7 @@ body {
 
 .navbar .menubar .btn:hover {
     background-color: rgb(43, 40, 40);
-    transition: 2.5s;
+    transition: 1.5s;
 }
 
 .navbar .menubar a {
@@ -71,4 +71,21 @@ body {
 ul li {
     display: inline-block;
     margin-top: 15px;
+}
+
+.main_content .main_text {
+    margin-top: 5rem;
+    height: 40rem;
+    background-image: url(cgc_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.main_text h1,
+p {
+    color: #f2f2f2;
+    margin-left: 70px;
+    margin-right: 70px;
 }

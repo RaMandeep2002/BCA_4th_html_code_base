@@ -3,7 +3,7 @@ function myFunction() {
     var psw = document.forms['subform']['pasw'].value;
 
     if (!isEmpty(unm, 'Username') && !isEmpty(psw, 'Password')) {
-        // alert('you have successfully logged in to your account');
+        alert('Login Successful');
         window.location.href = 'profile.html';
         return true;
     } else {

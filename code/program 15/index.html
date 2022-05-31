@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" class="stylesheet">
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="style/style.css" class="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/index.js"></script>
     <title>CGC Jhanjeri</title>
 </head>
 
@@ -14,7 +15,7 @@
     <div id="loader"></div>
     <div class="navbar">
         <div class="logo">
-            <img src="logo2.jpg" alt="">
+            <img src="images/logo2.jpg" alt="">
             <h1><span style="color:blueviolet" ;><b>Chandigarh </b></span><br> Group of Colleges</h>
         </div>
         <div class="menubar">
@@ -24,20 +25,82 @@
                 <li><a href="#section4">Student service</a></li>
                 <li><a href="# " class="btn" onclick=" applyNow()">Apply Now</a></li>
             </ul>
+
         </div>
     </div>
     <div class="main_content">
         <div class="section one" id="section1">
             <p>WELCOME TO <br> CHANDIGARH GROUP OF COLLEGES
-                <br> JHANJERI (CGC-J)</p>
+                <br> JHANJERI (CGC-J)
             </p>
         </div>
         <div class="section two" id="section2">
-            <p>About</p>
-            <h6>20 Glorious Years of Legacy</h6>
+            <div class="about_content">
+                <div class="text_area">
+                    <p>ABOUT US</p>
+                    <h1>WELCOME TO <br> CHANDIGARH GROUP OF <br> COLLEGES JHANJERI (CGC-J)</h1>
+                    <p>20 Glorious Years of Legacy</p>
+                    <p style="color: black;">The expedition of providing indispensable learning <br> through continuous upskilling at Chandigarh Group of <br> Colleges, Jhanjeri has completed a decade. Carrying <br> this bequest, we aim to change lives through quality <br> higher
+                        education...
+                    </p>
+                </div>
+                <div class="image_area">
+                    <div id="box_one" class="box_one">
+                        <img src="images/aboutpic6.jpg" alt="">
+                        <div class="box_one_text1">
+
+                            <h5>Education Loan <br> Assistance</h5>
+                            <p>
+                                To help you in achieving <br> financial independence
+                            </p>
+                        </div>
+                    </div>
+                    <div id="box_two" class="box_two">
+                        <img src="images/aboutpic7.jpg" alt="">
+                        <div class="box_two_text2">
+
+                            <h5>360°<br> Pre-Placement Training</h5>
+                            <p>
+                                To hone the aptitude, technical, professional & interpersonal skills of the students
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="section three" id="section3">
-            <p>Programs</p>
+            <div class="programs">
+                <p>Programs In CGC Jhanjeri</p>
+                <div class="program-data">
+
+                    <ul>
+                        <li>Engineering</li><br>
+                        <li>Management</li><br>
+                        <li>Computer Application</li><br>
+                        <li>Sciences</li><br>
+                        <li>Commerce</li><br>
+                        <li>Applied Health Sciences</li><br>
+                        <li>Journalism & Mass Communication</li><br>
+                        <li>Pharmacy </li><br>
+                        <li>Law</li><br>
+                    </ul>
+                </div>
+                <div class="finder">
+                    <label for="cars">Find Your Program:</label><br>
+                    <p><b>There's a career path for everyone at CGC Jhanjeri. Explore yours now! </b> Our breadth and depth in academics come from renowned and prestigious faculty, <br> who have built CGC's reputation as one of the nation's top colleges.</p>
+                    <select id="cars" placeholder="Find Your Program" class="selecter_program">
+                        <option value="volvo">Engineering</option>
+                        <option value="saab">Management</option>
+                        <option value="ferrari">Computer Application</option>
+                        <option value="audi">Sciences</option>
+                        <option value="audi">Commerce</option>
+                        <option value="audi">Applied Health Sciences</option>
+                        <option value="audi">Journalism & Mass Communication</option>
+                        <option value="audi">Pharmacy </option>
+                        <option value="audi">Law</option>
+                    </select>
+                </div>
+            </div>
         </div>
         <div class="section four" id="section4">
             <p>Social</p>

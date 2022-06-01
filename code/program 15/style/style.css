@@ -64,6 +64,13 @@ body {
     filter: drop-shadow(-7px -4px 4px rgb(0, 0, 0)) drop-shadow(8px 3px 5px rgb(122, 122, 122));
 }
 
+.navbar .menubar .btn1 {
+    background-color: rgb(14, 149, 222);
+    color: black;
+    border-radius: 30px;
+    filter: drop-shadow(-7px -4px 4px rgb(0, 0, 0)) drop-shadow(8px 3px 5px rgb(122, 122, 122));
+}
+
 .navbar .menubar .btn:hover {
     background-color: rgb(43, 40, 40);
     color: whitesmoke;
@@ -243,7 +250,7 @@ ul li {
 }
 
 .programs p {
-    color: white;
+    color: black;
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -289,11 +296,25 @@ ul li {
     margin: 10px;
     width: 32rem;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .finder p {
     font-size: 16px;
     margin: 10px;
     color: #fff;
+}
+
+.four {
+    background-color: #322d48;
+}
+
+.four p {
+    font-size: 34px;
+    color: #fff !important;
+    line-height: 1.2em;
+    text-align: center;
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: bolder;
+    letter-spacing: 10px;
 }

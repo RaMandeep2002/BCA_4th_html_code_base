@@ -318,3 +318,29 @@ ul li {
     font-weight: bolder;
     letter-spacing: 10px;
 }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 20rem;
+    height: 18rem;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.card img {
+    width: 20rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}

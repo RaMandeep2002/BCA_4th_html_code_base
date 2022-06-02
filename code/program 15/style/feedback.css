@@ -15,7 +15,8 @@ h1 {
     width: 28rem;
     height: 28rem;
     border-radius: 2rem;
-    border: 10px solid #d7d6d5;
+    -webkit-box-shadow: 12px 12px 15px #4a5680, -12px -12px 15px #c0deff;
+    box-shadow: 12px 12px 15px #4a5680, -12px -12px 15px #c0deff;
 }
 
 form {

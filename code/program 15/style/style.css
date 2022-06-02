@@ -5,7 +5,7 @@ body {
 
 .navbar {
     background-color: rgb(43, 40, 40);
-    height: 85px;
+    height: 90px;
     width: 100%;
     position: absolute;
     transition: top 0.3s;
@@ -32,7 +32,7 @@ body {
 }
 
 .navbar .logo img {
-    height: 65px;
+    height: 70px;
     float: left;
     width: 48px;
     margin-left: 4rem;
@@ -327,7 +327,8 @@ ul li {
 
 .card {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 12px 12px 15px #4a5680, -12px -12px 15px #c0deff;
+    box-shadow: 12px 12px 15px #4a5680, -12px -12px 15px #c0deff;
     transition: 0.3s;
     width: 20rem;
     height: 18rem;

@@ -8,7 +8,7 @@ function applyNow() {
 
 function feedBack() {
     alert('Fill Your Feedback')
-    window.location.href = 'https://admissions.cgc.ac.in/'
+    window.location.href = 'pages/feedBack.html'
 }
 
 //here is the code for the loader

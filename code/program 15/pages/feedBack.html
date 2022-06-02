@@ -5,11 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../style/feedback.css" class="stylesheet">
+    <title>CGC Feedback Form</title>
 </head>
 
 <body>
-
+    <h1>Feedback Form</h1>
+    <div class="form_area">
+        <form action="feedback.php" method="post">
+            <div class="form_group">
+                <label for="name">Name: -</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form_group">
+                <label for="email">Email: -</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form_group">
+                <label for="phone">Phone: - </label><br>
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone">
+            </div>
+            <div class="form_group">
+                <label for="feedback">Feedback: - </label><br>
+                <textarea name="feedback" id="feedback" cols="30" rows="5" placeholder="Enter your feedback"></textarea>
+            </div>
+            <div class="form_group">
+                <input type="submit" name="submit" value="Submit">
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>

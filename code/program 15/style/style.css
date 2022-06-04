@@ -84,9 +84,9 @@ body {
     text-decoration: none;
     display: block;
     position: relative;
-    margin-top: 10px;
+    margin-top: 8px;
     margin-right: 10px;
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 30px;
     filter: drop-shadow(-7px -4px 4px rgb(0, 0, 0)) drop-shadow(8px 3px 5px rgb(122, 122, 122));
 }

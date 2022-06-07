@@ -32,12 +32,3 @@ document.addEventListener('DOMContentLoaded', function() {
     loader = document.getElementById('loader')
     loadNow(1)
 })
-
-// function collapseMenu() {
-//     var x = document.getElementById('myLinks');
-//     if (x.style.display === 'block') {
-//         x.style.display = 'none';
-//     } else {
-//         x.style.display = 'block';
-//     }
-// }
